@@ -1,0 +1,31 @@
+{
+  "name": "public_test_stripe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "ts-node-dev app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "npx prettier --write app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "stripe": "^8.168.0",
+    "twitter": "^1.7.1",
+    "typescript": "^4.4.2",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
+  }
+}
